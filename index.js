@@ -1,7 +1,7 @@
 // Code your solution in this file
 const findMatching = (drivers, name) => {
-  const result = drivers.filter(driver => driver.toLowerCase() === name.toLowerCase());
-  return result;
+  return drivers.filter(driver => driver.toLowerCase() === name.toLowerCase());
+  // return result;
 };
 
 const fuzzyMatch = (drivers, str) => {
